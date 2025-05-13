@@ -61,7 +61,7 @@ container{
     border-radius: 30px;
 }
 .header{
-    background: radial-gradient(#fff, #983b3b);
+    background: radial-gradient();
 }
 .products{
     margin: 70px 0;
