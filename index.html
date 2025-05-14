@@ -38,89 +38,99 @@
 
 
     <div class="products">
-        <div class="card-grid">
-            
-            <div class="flip-card">
-            <div class="flip-inner">
-                <div class="flip-front">
-                <img src="images/D1_F.jpg" alt="Shirt Front">
-                <div class="card-text">
-                    <h3>Spider Tee</h3>
-                    <p>Front Design</p>
-                </div>
-                </div>
-                <div class="flip-back">
-                <img src="images/D1_B.jpg" alt="Shirt Back">
-                <div class="card-text">
-                    <h3>Spider Tee</h3>
-                    <p>Back Design</p>
-                </div>
-                </div>
+    <div class="card-grid">
+        <!-- Card 1 -->
+        <div class="flip-card">
+        <div class="flip-inner">
+            <div class="flip-front">
+            <img src="images/D1_F.jpg" alt="Shirt Front">
+            <div class="card-text">
+                <h3>Spider Tee</h3>
+                <p>Front Design</p>
             </div>
             </div>
-
-            
-            <div class="flip-card">
-            <div class="flip-inner">
-                <div class="flip-front">
-                <img src="images/D2_F.jpg" alt="Shirt Front">
-                <div class="card-text">
-                    <h3>Logo Tee</h3>
-                    <p>Front Design</p>
-                </div>
-                </div>
-                <div class="flip-back">
-                <img src="images/D2_B.jpg" alt="Shirt Back">
-                <div class="card-text">
-                    <h3>Logo Tee</h3>
-                    <p>Back Design</p>
-                </div>
-                </div>
-            </div>
-            </div>
-
-            
-            <div class="flip-card">
-            <div class="flip-inner">
-                <div class="flip-front">
-                <img src="images/D3_F.jpg" alt="Shirt Front">
-                <div class="card-text">
-                    <h3>Classic Tee</h3>
-                    <p>Front Design</p>
-                </div>
-                </div>
-                <div class="flip-back">
-                <img src="images/D3_B.jpg" alt="Shirt Back">
-                <div class="card-text">
-                    <h3>Classic Tee</h3>
-                    <p>Back Design</p>
-                </div>
-                </div>
-            </div>
-            </div>
-
-            
-            <div class="flip-card">
-            <div class="flip-inner">
-                <div class="flip-front">
-                <img src="images/D4_F.jpg" alt="Shirt Front">
-                <div class="card-text">
-                    <h3>Minimal Tee</h3>
-                    <p>Front Design</p>
-                </div>
-                </div>
-                <div class="flip-back">
-                <img src="images/D4_B.jpg" alt="Shirt Back">
-                <div class="card-text">
-                    <h3>Minimal Tee</h3>
-                    <p>Back Design</p>
-                </div>
-                </div>
+            <div class="flip-back">
+            <img src="images/D1_B.jpg" alt="Shirt Back">
+            <div class="card-text">
+                <h3>Spider Tee</h3>
+                <p>Back Design</p>
             </div>
             </div>
         </div>
         </div>
 
-    
+        <!-- Card 2 -->
+        <div class="flip-card">
+        <div class="flip-inner">
+            <div class="flip-front">
+            <img src="images/D2_F.jpg" alt="Shirt Front">
+            <div class="card-text">
+                <h3>Logo Tee</h3>
+                <p>Front Design</p>
+            </div>
+            </div>
+            <div class="flip-back">
+            <img src="images/D2_B.jpg" alt="Shirt Back">
+            <div class="card-text">
+                <h3>Logo Tee</h3>
+                <p>Back Design</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flip-card">
+        <div class="flip-inner">
+            <div class="flip-front">
+            <img src="images/D3_F.jpg" alt="Shirt Front">
+            <div class="card-text">
+                <h3>Classic Tee</h3>
+                <p>Front Design</p>
+            </div>
+            </div>
+            <div class="flip-back">
+            <img src="images/D3_B.jpg" alt="Shirt Back">
+            <div class="card-text">
+                <h3>Classic Tee</h3>
+                <p>Back Design</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="flip-card">
+        <div class="flip-inner">
+            <div class="flip-front">
+            <img src="images/D4_F.jpg" alt="Shirt Front">
+            <div class="card-text">
+                <h3>Minimal Tee</h3>
+                <p>Front Design</p>
+            </div>
+            </div>
+            <div class="flip-back">
+            <img src="images/D4_B.jpg" alt="Shirt Back">
+            <div class="card-text">
+                <h3>Minimal Tee</h3>
+                <p>Back Design</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".card");
+        cards.forEach((card, index) => {
+            setTimeout(() => {
+                card.classList.add("visible");
+            }, index * 200);
+        });
+    });
+    </script>
+
     </body>
 </html>
