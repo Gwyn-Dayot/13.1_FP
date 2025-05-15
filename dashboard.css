@@ -1,0 +1,53 @@
+.dashboard-welcome {
+    margin: 40px 0 20px;
+    color: #000000;
+    font-size: 28px;
+}
+.dashboard-content {
+background: #ffffff;
+color: #eee;
+border-radius: 15px;
+padding: 30px;
+max-width: 900px;
+margin: 0 auto 60px;
+box-shadow: 0 0 20px #000000aa;
+}
+.dashboard-section {
+margin-bottom: 30px;
+}
+.dashboard-section h2 {
+border-bottom: 2px solid #000000;
+padding-bottom: 8px;
+margin-bottom: 15px;
+color: #000000;
+}
+.order-list {
+list-style: none;
+padding-left: 0;
+}
+.order-list li {
+background: #30302f;
+margin-bottom: 10px;
+padding: 15px 20px;
+border-radius: 8px;           
+}
+.profile-info {
+font-size: 16px;
+line-height: 1.6;
+}
+.logout-btn {
+background: #d28a8a;
+color: #fff;
+padding: 10px 30px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+font-size: 16px;
+transition: background 0.3s ease;
+text-decoration: none;
+display: inline-block;
+margin-top: 15px;
+}
+.logout-btn:hover {
+background: #a15a5a;
+}        
